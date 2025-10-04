@@ -10,3 +10,4 @@ while mais != 0:
     cont += 1
   print('Pausa...')
   mais = int(input('Quantos termos você quer digitar a mais: '))
+#comit
