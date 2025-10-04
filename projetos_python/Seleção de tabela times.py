@@ -1,0 +1,5 @@
+times = ('Fluminense', 'Flamengo', 'Cruzeiro', 'Palmeiras', 'Mirassol','Bragantino', 'Botafogo', 'Vasco', 'Santos', 'Corinthians', 'Atlético-MG', 'Spoting-RC', 'Fortaleza','Juventude','São Paulo', 'Bahia', 'Vitória', 'Internacional', 'Gremio', 'Ceará-SC')
+print('Os três primeiros são: ', times[0:3])
+print('Os três ultímos são:', times[-4:])
+print('Os times em ordem alfabética são: ', sorted(times))
+print('A posição do time', times.index("Fluminense") + 1)
