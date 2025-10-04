@@ -1,0 +1,68 @@
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+}
+.garoto-img {
+  opacity: 1;
+}
+.garoto-img.ativo {
+    animation: animaLeft .3s forwards;
+}
+@keyframes animaLeft {
+  from {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+
+  }
+}
+
+.introducao h1 {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  color: #524fa1;
+  position: relative;
+}
+
+.introducao p {
+  font-size: 1.5rem;
+  color: #525252;
+}
+
+.quadrado::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 70px;
+  background: #5dcec0;
+  position: absolute;
+  top: 15px;
+  left: -40px;
+}
+
+@media (max-width: 800px) {
+  .introducao h1 {
+    font-size: 2rem;
+  }
+
+  .introducao p {
+    font-size: 1rem;
+  }
+}
+
+.introducao p {
+  font-weight: 400;
+}
+
+.cinza {
+  color: #8b8b8b;
+}

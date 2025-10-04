@@ -1,0 +1,19 @@
+footer{
+    background: #1A1A1A;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-title{
+    color: #ffff;
+    font-weight:400;
+    align-items:center;
+    justify-content: center;
+    }
+    
+
+    
+
